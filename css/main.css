@@ -8,49 +8,49 @@ body{
 	text-align: center;	
 }
 /*NAV HEADER*/
-header {
-	padding-top: 30px;
-	padding-bottom: 15px; 
+header{
+	background-color: #25221D;
 	text-align: center;
 }
 header .menu {
-	padding-left: 270px;
+	padding: 0rem 18rem;
 }
-header nav ul{
-	list-style: none;
-	text-align: center;
+header .menu nav a{
+	font-size: 22px;
 }
 header nav ul li {
 	float: left;
-	padding: 25px 15px;
+	padding: 24px 15px;
 }
 header nav ul li a {
-	padding-right: 40px;
+	padding-right: 30px;
 	display: inline-block;
 	text-decoration: none;
-	color: #585858;
+	color: #8c8c8c;
 }
 header nav ul li a:hover{
 	color: #000000;
-}
-h1{
-	color: #55617E;
-	text-align: center;
-	font-size: 24px;
-}
-header .menu nav a{
-	font-size: 40px;
 }
 .sectiontop{
 	background-image: url(../image/OBFCUE0.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
-	width: 100%;
-	padding: 80px 150px;
+  height: 500px;
+	width: auto;
+	padding: 120px 150px;
 }
-.logoBPT{
+.boxtrans{
+	width: 60%;
+	padding: 20px;
+	background-color: rgba(255,255,255,0.6);
+}
+.logo{
+	border: 3px solid black;
+}
+.mapaLima{
+	background-color: #218380;
+}
+.mapa{
+	overflow: scroll;
 	width: 40%;
-	height: 20%;
-	background-color: rgba(255-255-255,0.5);
 }
