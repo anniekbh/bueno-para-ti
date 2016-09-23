@@ -1,3 +1,85 @@
+* {
+  margin: auto;
+  padding: 0;
+  border: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
 body{
+	text-align: center;	
+}
+/*NAV HEADER*/
+header {
+	padding-top: 30px;
+	padding-bottom: 15px; 
 	text-align: center;
+}
+header .menu {
+	padding-left: 270px;
+}
+header nav ul{
+	list-style: none;
+	text-align: center;
+}
+header nav ul li {
+	float: left;
+	padding: 25px 15px;
+}
+header nav ul li a {
+	padding-right: 40px;
+	display: inline-block;
+	text-decoration: none;
+	color: #585858;
+}
+header nav ul li a:hover{
+	color: #000000;
+}
+h1{
+	color: #55617E;
+	text-align: center;
+	font-size: 24px;
+}
+header .menu nav a{
+	font-size: 40px;
+}
+.sectiontop{
+	background-image: url(../image/OBFCUE0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+	width: 100%;
+	padding: 80px 150px;
+}
+.logoBPT{
+	width: 40%;
+	height: 20%;
+	background-color: rgba(255-255-255,0.5);
+}
+/*SECCION 1 NAV*/
+.distritos a{
+	text-decoration: none;
+	padding: 1rem;
+}
+.distritos a:nth-child(1){
+	
+}
+.distritos a:nth-child(2){
+	
+}
+.distritos a:nth-child(3){
+	
+}
+.distritos a:nth-child(4){
+	
+}
+.distritos a:nth-child(5){
+	
+}
+.distritos a:nth-child(6){
+	
+}
+.distritos a:nth-child(7){
+	
+}
+.distritos a:nth-child(8){
+	
 }
