@@ -1,12 +1,10 @@
 window.addEventListener("load", function(){
-
+    var mapaLima = document.getElementById("mapa");
 });
 
-document.getElementById("mapa").addEventListener("scroll", myFunction);
-
-function myFunction() {
-    document.getElementById("mapa").appendChild= "mapa";
-}
+    window.addEventListener("scroll", function(){
+        mapa.classList.add("aparecer");
+    })
 
 
 

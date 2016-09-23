@@ -51,6 +51,10 @@ header nav ul li a:hover{
 	background-color: #218380;
 }
 .mapa{
+	display: none;
 	overflow: scroll;
 	width: 40%;
+}
+.aparecer{
+	display: block;
 }
