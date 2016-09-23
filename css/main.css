@@ -58,3 +58,32 @@ header nav ul li a:hover{
 .aparecer{
 	display: block;
 }
+
+/*SECCION 1 NAV*/
+.distritos a{
+	text-decoration: none;
+	padding: 1rem;
+}
+.distritos a:nth-child(1){
+	
+}
+.distritos a:nth-child(2){
+	
+}
+.distritos a:nth-child(3){
+	
+}
+.distritos a:nth-child(4){
+	
+}
+.distritos a:nth-child(5){
+	
+}
+.distritos a:nth-child(6){
+	
+}
+.distritos a:nth-child(7){
+	
+}
+.distritos a:nth-child(8){
+}
