@@ -87,3 +87,10 @@ header nav ul li a:hover{
 }
 .distritos a:nth-child(8){
 }
+/*Mapa de Lima*/
+.puntoUno{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: blue;
+	z-index: 100%;
