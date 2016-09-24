@@ -2,7 +2,7 @@
   margin: auto;
   padding: 0;
   border: 0;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 body{
 	text-align: center;	
@@ -13,7 +13,7 @@ header{
 	text-align: center;
 }
 header .menu {
-	padding: 0rem 18rem;
+	padding: 0rem 14rem;
 }
 header .menu nav a{
 	font-size: 22px;
@@ -31,6 +31,8 @@ header nav ul li a {
 header nav ul li a:hover{
 	color: #000000;
 }
+
+/*SECTION TOP*/
 .sectiontop{
 	background-image: url(../image/OBFCUE0.jpg);
   background-repeat: no-repeat;
@@ -47,17 +49,82 @@ header nav ul li a:hover{
 .logo{
 	border: 3px solid black;
 }
+
+/*VISTA2*/
+.vista2{
+	padding: 44px 0px;
+}
+.distritos{
+	margin-top: 60px;
+}
+
+/*MAPA LIMA*/
 .mapaLima{
-	background-color: #218380;
+	background-color: #f8ca00;
 }
 .mapa{
 	display: none;
 	overflow: scroll;
-	width: 40%;
+	width: 55%;
 }
 .aparecer{
 	display: block;
 }
+.limaMetro{
+	color: white;
+	font-size: 4rem;
+}
+
+/*BARRA DISTRITOS*/
+.color{
+	color: white;
+	margin: 0.4rem 0.4rem;
+	border: 1px solid white;
+}
+.cl1:hover{
+	background-color: #FFBC42;
+	opacity:0.8;
+}
+.cl2:hover{
+	background-color: #D81159;
+	opacity:0.8;
+}
+.cl3:hover{
+	background-color: #75D701;
+	opacity:0.8;
+}
+.cl4:hover{
+	background-color: #f100e5;
+	opacity:0.8;
+}
+.cl5:hover{
+	background-color: #00b9f1;
+	opacity:0.8;
+}
+.cl6:hover{
+	background-color: #f9320c;
+	opacity:0.8;
+}
+.cl7:hover{
+	background-color: #5c196b;
+	opacity:0.8;
+}
+.cl8:hover{
+	background-color: #0080ff;
+	opacity:0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*SECCION 1 NAV*/
 .distritos a{
