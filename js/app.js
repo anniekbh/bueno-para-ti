@@ -9,52 +9,84 @@ window.addEventListener("load", function(){
     var dist6 = document.getElementById("dist6");
     var dist7 = document.getElementById("dist7");
     var dist8 = document.getElementById("dist8");
+    var circulo1 = document.getElementById("ocultar1");
+    var circulo2 = document.getElementById("ocultar2");
+    var circulo3 = document.getElementById("ocultar3");
+    var circulo4 = document.getElementById("ocultar4");
+    var circulo5 = document.getElementById("ocultar5");
+    var circulo6 = document.getElementById("ocultar6");
+    var circulo7 = document.getElementById("ocultar7");
+    var circulo8 = document.getElementById("ocultar8");
+    var tocado1 = false;
+    var tocado2 = false;
+    var tocado3 = false;
+    var tocado4 = false;
+    var tocado5 = false;
+    var tocado6 = false;
+    var tocado7 = false;
+    var tocado8 = false;
 
-    /*mapaLima.addEventListener("scroll", function(){
-        mapa.classList.add("aparecer");*/
-
-    dist1.addEventListener("click", function(e){
-        var punto1 = document.createElement("button");
-            punto1.classList.add("punto1");
-            mapaLima.insertBefore(punto1, mapaLima.childNodes[0]);
+    dist1.addEventListener("mouseover", function(){
+        if (!tocado1) {
+          circulo1.style.display="block"; 
+            tocado1 = true;
+        };
     });
-    dist2.addEventListener("click", function(e){
-        var punto2 = document.createElement("button");
-            punto2.classList.add("punto2");
-            mapaLima.insertBefore(punto2, mapaLima.childNodes[0]);
+    dist2.addEventListener("mouseover", function(){
+      if (!tocado2) {
+        circulo2.style.display="block";
+            tocado2 = true;
+        };
     });    
-    dist3.addEventListener("click", function(e){
-        var punto3 = document.createElement("button");
-            punto3.classList.add("punto3");
-            mapaLima.insertBefore(punto3, mapaLima.childNodes[0]);
+    dist3.addEventListener("mouseover", function(){
+      if (!tocado3) {
+        circulo3.style.display="block";
+            tocado3 = true;
+      }
     }); 
-    dist4.addEventListener("click", function(e){
-        var punto4 = document.createElement("button");
-            punto4.classList.add("punto4");
-            mapaLima.insertBefore(punto4, mapaLima.childNodes[0]);
+    dist4.addEventListener("mouseover", function(){
+      if (!tocado4) {
+        circulo4.style.display="block"; 
+            tocado4 = true;
+      }
     }); 
-    dist5.addEventListener("click", function(e){
-        var punto5 = document.createElement("button");
-            punto5.classList.add("punto5");ll
-            mapaLima.insertBefore(punto5, mapaLima.childNodes[0]);
+    dist5.addEventListener("mouseover", function(e){
+      if (!tocado5) {
+        circulo5.style.display="block"; 
+            tocado5 = true;
+      }
     });
-    dist6.addEventListener("click", function(e){
-        var punto6 = document.createElement("button");
-            punto6.classList.add("punto6");
-            mapaLima.insertBefore(punto6, mapaLima.childNodes[0]);
+    dist6.addEventListener("mouseover", function(e){
+      if (!tocado6) {
+        circulo6.style.display="block"; 
+            tocado6 = true;
+      }
     });    
-    dist7.addEventListener("click", function(e){
-        var punto7 = document.createElement("button");
-            punto7.classList.add("punto7");
-            mapaLima.insertBefore(punto7, mapaLima.childNodes[0]);
+    dist7.addEventListener("mouseover", function(e){
+      if (!tocado7) {
+        circulo7.style.display="block"; 
+            tocado7 = true;
+      }
     }); 
-    dist8.addEventListener("click", function(e){
-        var punto8 = document.createElement("button");
-            punto8.classList.add("punto8");
-            mapaLima.insertBefore(punto8, mapaLima.childNodes[0]);
+    dist8.addEventListener("mouseover", function(e){
+      if (!tocado8) {
+        circulo8.style.display="block"; 
+            tocado8 = true;
+      }
     }); 
 
+   /* circulo1.addEventListener("mouseover", mouseOver);
+    circulo1.addEventListener("mouseout", mouseOut);
 
+    function mouseOver(circulo1) {
+        circulo1.style.height = "54px";
+        circulo1.style.width = "5s4px";
+    }
+
+    function mouseOut(circulo1) {
+        circulo1.style.height = "15px";
+        circulo1.style.width = "15px";
+    }*/
 
 });
 
