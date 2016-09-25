@@ -25,6 +25,7 @@ window.addEventListener("load", function(){
     var tocado6 = false;
     var tocado7 = false;
     var tocado8 = false;
+    var fondo = document.getElementById("sectiontop");
 
     dist1.addEventListener("mouseover", function(){
         if (!tocado1) {
@@ -50,43 +51,62 @@ window.addEventListener("load", function(){
             tocado4 = true;
       }
     }); 
-    dist5.addEventListener("mouseover", function(e){
+    dist5.addEventListener("mouseover", function(){
       if (!tocado5) {
         circulo5.style.display="block"; 
             tocado5 = true;
       }
     });
-    dist6.addEventListener("mouseover", function(e){
+    dist6.addEventListener("mouseover", function(){
       if (!tocado6) {
         circulo6.style.display="block"; 
             tocado6 = true;
       }
     });    
-    dist7.addEventListener("mouseover", function(e){
+    dist7.addEventListener("mouseover", function(){
       if (!tocado7) {
         circulo7.style.display="block"; 
             tocado7 = true;
       }
     }); 
-    dist8.addEventListener("mouseover", function(e){
+    dist8.addEventListener("mouseover", function(){
       if (!tocado8) {
         circulo8.style.display="block"; 
             tocado8 = true;
       }
     }); 
 
-   /* circulo1.addEventListener("mouseover", mouseOver);
-    circulo1.addEventListener("mouseout", mouseOut);
+    window.onload = function() {
+        document.onmousemove = function(e) {
+            var x = -(e.clientX/125);
+            var y = -(e.clientY/125);
+        this.body.style.backgroundPosition = x + 'px ' + y + 'px';
+      };
+    };
 
-    function mouseOver(circulo1) {
-        circulo1.style.height = "54px";
-        circulo1.style.width = "5s4px";
-    }
 
-    function mouseOut(circulo1) {
-        circulo1.style.height = "15px";
-        circulo1.style.width = "15px";
-    }*/
+
+    /*fondo.addEventListener("mousemove", function(event){
+        myFunction(event);
+    });
+        function myFunction(e) {
+        var x = -(e.clientX - fondo.offsetTop / 5);
+        var y = -(e.clientY - fondo.offsetTop / 5);
+        fondo.style.backgroundPosition = x + 'px ' + y + 'px';
+        }*/
+
+
+    /*ten.addEventListener("mousemove", function(event){
+        myFunction(event);
+    });
+     fondo.body.style.backgroundPosition = x + 'px ' + y + 'px';
+
+        function myFunction(e) {
+            var x = -(e.clientX - ten.offsetTop / 10);
+            var y = -(e.clientY - ten.offsetLeft / 10); 
+            ten.style.backgroundPosition = x + 'px ' + y + 'px';
+        }*/
+
 
 });
 
