@@ -73,7 +73,7 @@ window.addEventListener("load", function(){
         circulo8.style.display="block"; 
             tocado8 = true;
       }
-    }); 
+    });
 
    /* circulo1.addEventListener("mouseover", mouseOver);
     circulo1.addEventListener("mouseout", mouseOut);
@@ -89,6 +89,10 @@ window.addEventListener("load", function(){
     }*/
 
 });
-
+ window.addEventListener("scroll", function(){
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500)  {
+        mapa.style.display = "block";
+    }
+});
 
 
