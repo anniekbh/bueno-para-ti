@@ -25,7 +25,11 @@ window.addEventListener("load", function(){
     var tocado6 = false;
     var tocado7 = false;
     var tocado8 = false;
+<<<<<<< HEAD
     var fondo = document.getElementById("sectiontop");
+=======
+    var leer = document.getElementById("leerMas");
+>>>>>>> refs/remotes/origin/master
 
     dist1.addEventListener("mouseover", function(){
         if (!tocado1) {
@@ -74,8 +78,14 @@ window.addEventListener("load", function(){
         circulo8.style.display="block"; 
             tocado8 = true;
       }
+<<<<<<< HEAD
     }); 
 
+=======
+    });
+   /* circulo1.addEventListener("mouseover", mouseOver);
+    circulo1.addEventListener("mouseout", mouseOut);
+>>>>>>> refs/remotes/origin/master
 
 
 
@@ -102,6 +112,10 @@ window.addEventListener("load", function(){
 
 
 });
-
+ window.addEventListener("scroll", function(){
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+        mapa.style.display = "block";
+    }
+});
 
 

@@ -58,6 +58,7 @@
 	text-align: center;
 }
 .mapa{
+	display: none;
 	width: 55%;
 }
 .limaMetro{
