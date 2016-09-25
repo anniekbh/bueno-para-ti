@@ -4,50 +4,33 @@
   border: 0;
   font-family: 'Raleway', sans-serif;
 }
-body{
-	text-align: center;	
-}
 /*NAV HEADER*/
 header{
 	background-color: #25221D;
 	text-align: center;
+	padding: 10px 10px;
 }
-header .menu {
-	padding: 0rem 14rem;
+header .menu{
+	margin: 0px 20px;
 }
-header .menu nav a{
-	font-size: 22px;
-}
-header nav ul li {
+header .logo{
 	float: left;
-	padding: 24px 15px;
+	width: 16%;
 }
-header nav ul li a {
-	padding-right: 30px;
+.iconoTlf{
+	float: right;
+	width: 4%;
+}
+header .numero {
+	float: right;
+	padding-top: 15px;
+	padding-right: 20px;
 	display: inline-block;
 	text-decoration: none;
 	color: #8c8c8c;
 }
-header nav ul li a:hover{
+header .numero:hover{
 	color: #000000;
-}
-
-/*SECTION TOP*/
-.sectiontop{
-	background-image: url(../image/OBFCUE0.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-	width: auto;
-	padding: 120px 150px;
-}
-.boxtrans{
-	width: 60%;
-	padding: 20px;
-	background-color: rgba(255,255,255,0.6);
-}
-.logo{
-	border: 3px solid black;
 }
 
 /*VISTA2*/
@@ -57,13 +40,53 @@ header nav ul li a:hover{
 .distritos{
 	margin-top: 60px;
 }
+/*SECTION TOP*/
+.sectiontop{
+	background-image: url(../image/fondo/OBFCUE0.jpg);
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: auto;
+	width: auto;
+	padding: 120px 150px;
+}
+.boxtrans{
+	width: 80%;
+	padding: 20px;
+	background-color: rgba(255,255,255,0.6);
+}
+.logoPerfil{
+	border: 3px solid black;
+}
+.butonEntrada{
+	margin-top: 200px;
+	border: 1px solid white;
+	padding: 14px 20px ;
+	border-radius: 2px;
+	text-align: center;
+	width: 14%;
+	position: relative;
+	left: 420px;
+}
+.butonEntrada:hover{
+	background-color: rgba(0,0,0,0.6);
+}
+.ingresa{
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+.ingresa:hover{
+	color: black;
+}
+
 
 /*MAPA LIMA*/
 .mapaLima{
 	background-color: #f8ca00;
+	text-align: center;
 }
 .mapa{
-	overflow: scroll;
 	width: 55%;
 }
 .limaMetro{
@@ -115,61 +138,103 @@ header nav ul li a:hover{
 }
 
 /*APARECER*/
-.punto1{
+#ocultar1, #ocultar2, #ocultar3, #ocultar4, #ocultar5, #ocultar6, #ocultar7, #ocultar8{
+	display: none;
+}
+.circulo{
 	width: 15px;
 	height: 15px;
 	border-radius: 50%;
+}
+.punto1{
 	background-color: blue;
-	z-index: 100%;
 	position: relative;
-	top: 120px;
+	bottom: 320px;
+	right: 30px;
 }
 .punto2{
-	width: 15px;
-	height: 15px;
-	border-radius: 50%;
 	background-color: #D81159;
-	z-index: 100%;
+	position: relative;
+	bottom: 300px;
+	right: 30px;
 }
 .punto3{
-	width: 15px;
-	height: 15px;
-	border-radius: 50%;
 	background-color: #75D701;
-	z-index: 100%;
+	position: relative;
+	bottom: 420px;
+	right: 32px;
 }
 .punto4{
-	width: 15px;
-	height: 15px;
-	border-radius: 50%;
 	background-color: #f100e5;
-	z-index: 100%;
+	position: relative;
+	bottom: 410px;
+	right: 24px;
 }
 .punto5{
-	width: 15px;
-	height: 15px;
-	border-radius: 50%;
 	background-color: #00b9f1;
-	z-index: 100%;
+	position: relative;
+	bottom: 310px;
+	right: 12px;
 }
 .punto6{
-	width: 15px;
-	height: 15px;
-	border-radius: 50%;
 	background-color: #f9320c;
-	z-index: 100%;
+	position: relative;
+	bottom: 340px;
+	right: 26px;
 }
 .punto7{
-	width: 15px;
-	height: 15px;
-	border-radius: 50%;
 	background-color: #5c196b;
-	z-index: 100%;
+	position: relative;
+	bottom: 540px;
+	right: 26px;
 }
 .punto8{
-	width: 15px;
-	height: 15px;
-	border-radius: 50%;
 	background-color: #0080ff;
-	z-index: 100%;
+	position: relative;
+	bottom: 520px;
+	right: 12px;
+}
+.distritos{
+	margin-top: 60px;
+}
+
+/*FOOTER*/
+footer{
+	background-color: #25221D;
+	color: white;
+	padding: 40px 0px;
+}
+footer .vista3{
+	margin-bottom: 60px;
+}
+footer .dis{
+	font-weight: bold;
+	color: white;
+	font-size: 1rem;
+}
+footer a{
+	display: inherit;
+	text-decoration: none;
+	font-size: 13px;
+	color: #ccc;
+}
+footer a:hover{
+	color: #000000;
+}
+footer .num{
+	font-size: 2rem;
+}
+.lineaFooter{
+	border: 1px solid #ccc;
+}
+footer .red{
+	display: initial;
+	padding: 0px 20px;
+}
+.ic{
+	width: 4%;
+}
+.iconosRedes{
+	margin-top: 20px;
+	text-align: center;
 }
