@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Bueno-para-Ti</title>
+    <title>Reserva</title>
     <link rel="shortcut icon" href="image/iconos/icono.ico">
     <link rel="stylesheet" type="text/css" href="css/simplegrid.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/ingresa.css">
     <link rel="stylesheet" type="text/css" href="css/comun.css">
   </head>
   <body>
@@ -14,49 +14,25 @@
       <div class="container-fluid">
         <div class="row menu">
           <nav>
-            <img src="image/logo/logoblanco-03.png" class="logo" id="logo">
+            <a href="index.html"><img src="image/logo/logoblanco-03.png" class="logo" id="logo"></a>
             <img src="image/iconos/iconotelefono-05.png" alt="" class="iconoTlf">
             <p class="numero">992 345 213</p>
           </nav>
         </div>
       </div>
     </header>
-	<section class ="sectiontop">
+	<section class ="ingresAhora">
 	    <div class="container-fluid">
 	      <div class="row ">
-	        <div class="boxtrans">
-	          <img src="image/logo/logo.png" class="logoPerfil">
+	        <div class="formulario">
+	          <form>
+	          	<span>Reserva Ahora!</span><br>
+	          	<input type="text" name="seleccionDia" id="dia" placeholder="Selecciona fecha.."><br>
+	          	<input type="text" name="numeroClientes" id="clientes" placeholder="Personas.."><br>
+	          	<input type="text" name="horarioDisponible" id="horarios" placeholder="Selecciona hora.."><br>
+	          	<button>Hacer Reserva</button>
+	          </form>
 	        </div>
-	        <div class="butonEntrada">
-	          <a href="ingresa.html" class="ingresa">Ingresa</a>
-	        </div>
-	      </div>
-	    </div>
-	</section>
-	<section id="mapaLima" class="mapaLima">
-	    <div class="container-fluid vista2">
-	      <span id="limaMetro" class=limaMetro>Lima Metropolitana</span>
-	        <nav class="distritos">
-	            <a href="#" class="color cl1" id="dist1">MIRAFLORES </a>
-	            <a href="#" class="color cl2" id="dist2">SAN ISIDRO</a>
-	            <a href="#" class="color cl3" id="dist3">MAGDALENA</a>
-	            <a href="#" class="color cl4" id="dist4">SAN BORJA</a>
-	            <a href="#" class="color cl5" id="dist5">LINCE</a>
-	            <a href="#" class="color cl6" id="dist6">JESUS MARIA</a>
-	            <a href="#" class="color cl7" id="dist7">CALLAO</span></a>
-	            <a href="#" class="color cl8" id="dist8">SURCO</span></a>
-	            <div class="row">
-	              <img src="image/mapaLima.png" id="mapa" class="mapa">
-	            </div>
-	            <div id="ocultar1" class="circulo punto1" bigImg(this)" onmouseout="normalImg(this)" width="15px" height="15px"><a href="distritos/miraflores.html"></a></div>
-	            <div id="ocultar2" class="circulo punto2" bigImg(this)" onmouseout="normalImg(this)" width="15px" height="15px"><a href="distritos/sanisidro.html"></a></div>
-	            <div id="ocultar3" class="circulo punto3" bigImg(this)" onmouseout="normalImg(this)" width="15px" height="15px"><a href="distritos/magdalena.html"></a></div>
-	            <div id="ocultar4" class="circulo punto4" bigImg(this)" onmouseout="normalImg(this)" width="15px" height="15px"><a href="distritos/sanborja.html"></a></div>
-	            <div id="ocultar5" class="circulo punto5" bigImg(this)" onmouseout="normalImg(this)" width="15px" height="15px"><a href="distritos/lince.html"></a></div>
-	            <div id="ocultar6" class="circulo punto6" bigImg(this)" onmouseout="normalImg(this)" width="15px" height="15px"><a href="distritos/jesusmaria.html"></a></div>
-	            <div id="ocultar7" class="circulo punto7" bigImg(this)" onmouseout="normalImg(this)" width="15px" height="15px"><a href="distritos/callao.html"></a></div>
-	            <div id="ocultar8" class="circulo punto8" bigImg(this)" onmouseout="normalImg(this)" width="15px" height="15px"><a href="distritos/surco.html"></a></div>
-	        </nav>
 	      </div>
 	    </div>
 	</section>

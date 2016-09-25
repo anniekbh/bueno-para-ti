@@ -25,6 +25,7 @@ window.addEventListener("load", function(){
     var tocado6 = false;
     var tocado7 = false;
     var tocado8 = false;
+    var leer = document.getElementById("leerMas");
 
     dist1.addEventListener("mouseover", function(){
         if (!tocado1) {
@@ -50,31 +51,30 @@ window.addEventListener("load", function(){
             tocado4 = true;
       }
     }); 
-    dist5.addEventListener("mouseover", function(e){
+    dist5.addEventListener("mouseover", function(){
       if (!tocado5) {
         circulo5.style.display="block"; 
             tocado5 = true;
       }
     });
-    dist6.addEventListener("mouseover", function(e){
+    dist6.addEventListener("mouseover", function(){
       if (!tocado6) {
         circulo6.style.display="block"; 
             tocado6 = true;
       }
     });    
-    dist7.addEventListener("mouseover", function(e){
+    dist7.addEventListener("mouseover", function(){
       if (!tocado7) {
         circulo7.style.display="block"; 
             tocado7 = true;
       }
     }); 
-    dist8.addEventListener("mouseover", function(e){
+    dist8.addEventListener("mouseover", function(){
       if (!tocado8) {
         circulo8.style.display="block"; 
             tocado8 = true;
       }
     });
-
    /* circulo1.addEventListener("mouseover", mouseOver);
     circulo1.addEventListener("mouseout", mouseOut);
 
@@ -90,7 +90,7 @@ window.addEventListener("load", function(){
 
 });
  window.addEventListener("scroll", function(){
-    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500)  {
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
         mapa.style.display = "block";
     }
 });

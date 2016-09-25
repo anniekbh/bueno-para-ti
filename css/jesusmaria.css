@@ -5,6 +5,9 @@ body{
 .localizacion{
 	padding: 4%;
 }
+#leerMas{
+	display: none;
+}
 .ktanaPlato{
 	width: 9rem;
 	height: 6rem;
