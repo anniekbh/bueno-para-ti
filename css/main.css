@@ -109,7 +109,7 @@
 }
 
 /*APARECER*/
-#ocultar1, #ocultar2, #ocultar3, #ocultar4, #ocultar5, #ocultar6, #ocultar7, #ocultar8{
+#ocultar1, #ocultar2, #ocultar3, #ocultar4, #ocultar5, #ocultar6, #ocultar7, #ocultar8 {
 	display: none;
 }
 .circulo{
@@ -118,7 +118,7 @@
 	border-radius: 50%;
 }
 .punto1{
-	background-color: blue;
+	background-color: yellow;
 	position: relative;
 	bottom: 320px;
 	right: 30px;
@@ -160,7 +160,7 @@
 	right: 26px;
 }
 .punto8{
-	background-color: #0080ff;
+	background-color:#0080ff;
 	position: relative;
 	bottom: 520px;
 	right: 12px;

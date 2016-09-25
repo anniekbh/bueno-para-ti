@@ -2,6 +2,9 @@ body{
 	background-color: #75D701;
 	font-family: 'Raleway', sans-serif;
 }
+.localizacion{
+	padding: 4%;
+}
 .pankaPlato{
 	width: 9rem;
 	height: 6rem;

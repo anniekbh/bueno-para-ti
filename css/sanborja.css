@@ -2,6 +2,9 @@ body{
 	background-color: #f100e5;
 	font-family: 'Raleway', sans-serif;
 }
+.localizacion{
+	padding: 4%;
+}
 .pescadosPlato{
 	width: 9rem;
 	height: 6rem;

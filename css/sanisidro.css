@@ -2,6 +2,9 @@ body{
 	background-color: #D81159;
 	font-family: 'Raleway', sans-serif;
 }
+.localizacion{
+	padding: 4%;
+}
 .malabarPlato{
 	width: 9rem;
 	height: 6rem;

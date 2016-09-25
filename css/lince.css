@@ -2,6 +2,9 @@ body{
 	background-color: #00b9f1;
 	font-family: 'Raleway', sans-serif;
 }
+.localizacion{
+	padding: 4%;
+}
 .tramontanaPlato{
 	width: 9rem;
 	height: 6rem;
