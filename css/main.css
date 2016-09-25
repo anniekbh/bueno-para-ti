@@ -63,12 +63,8 @@ header nav ul li a:hover{
 	background-color: #f8ca00;
 }
 .mapa{
-	display: none;
 	overflow: scroll;
 	width: 55%;
-}
-.aparecer{
-	display: block;
 }
 .limaMetro{
 	color: white;
@@ -76,13 +72,17 @@ header nav ul li a:hover{
 }
 
 /*BARRA DISTRITOS*/
+.distritos a{
+	text-decoration: none;
+	padding: 1rem;
+}
 .color{
 	color: white;
 	margin: 0.4rem 0.4rem;
 	border: 1px solid white;
 }
 .cl1:hover{
-	background-color: #FFBC42;
+	background-color: yellow;
 	opacity:0.8;
 }
 .cl2:hover{
@@ -114,50 +114,62 @@ header nav ul li a:hover{
 	opacity:0.8;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*SECCION 1 NAV*/
-.distritos a{
-	text-decoration: none;
-	padding: 1rem;
-}
-.distritos a:nth-child(1){
-	
-}
-.distritos a:nth-child(2){
-	
-}
-.distritos a:nth-child(3){
-	
-}
-.distritos a:nth-child(4){
-	
-}
-.distritos a:nth-child(5){
-	
-}
-.distritos a:nth-child(6){
-	
-}
-.distritos a:nth-child(7){
-	
-}
-.distritos a:nth-child(8){
-}
-/*Mapa de Lima*/
-.puntoUno{
-	width: 30px;
-	height: 30px;
+/*APARECER*/
+.punto1{
+	width: 15px;
+	height: 15px;
 	border-radius: 50%;
 	background-color: blue;
 	z-index: 100%;
+	position: relative;
+	top: 120px;
+}
+.punto2{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #D81159;
+	z-index: 100%;
+}
+.punto3{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #75D701;
+	z-index: 100%;
+}
+.punto4{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #f100e5;
+	z-index: 100%;
+}
+.punto5{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #00b9f1;
+	z-index: 100%;
+}
+.punto6{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #f9320c;
+	z-index: 100%;
+}
+.punto7{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #5c196b;
+	z-index: 100%;
+}
+.punto8{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #0080ff;
+	z-index: 100%;
+}
