@@ -2,6 +2,9 @@ body{
 	background-color: #f9320c;
 	font-family: 'Raleway', sans-serif;
 }
+.localizacion{
+	padding: 4%;
+}
 .ktanaPlato{
 	width: 9rem;
 	height: 6rem;
