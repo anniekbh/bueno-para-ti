@@ -74,9 +74,7 @@ window.addEventListener("load", function(){
             tocado8 = true;
       }
     });
-
-
-    });
+});
      window.addEventListener("scroll", function(){
         if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
             mapa.style.display = "block";
@@ -86,5 +84,3 @@ window.addEventListener("load", function(){
     
 
 });
-
-
