@@ -25,7 +25,7 @@ window.addEventListener("load", function(){
     var tocado6 = false;
     var tocado7 = false;
     var tocado8 = false;
-    
+
     dist1.addEventListener("mouseover", function(){
         if (!tocado1) {
           circulo1.style.display="block"; 
@@ -73,14 +73,110 @@ window.addEventListener("load", function(){
         circulo8.style.display="block"; 
             tocado8 = true;
       }
-    });
-});
-     window.addEventListener("scroll", function(){
-        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-            mapa.style.display = "block";
-        }
+    }); 
 
 
+
+  circulo1.addEventListener("mouseover", uno);
+  circulo1.addEventListener("mouseout", dos);
+    function uno() {
+        circulo1.style.height = "44px";
+        circulo1.style.width = "44px";
+    }
+    function dos() {
+        circulo1.style.height = "15px";
+        circulo1.style.width = "15px";
+  };
+
+  circulo2.addEventListener("mouseover", tres);
+  circulo2.addEventListener("mouseout", cuatro);
+    function tres() {
+        circulo2.style.height = "44px";
+        circulo2.style.width = "44px";
+    }
+    function cuatro() {
+        circulo2.style.height = "15px";
+        circulo2.style.width = "15px";
+  };
     
+  circulo3.addEventListener("mouseover", cinco);
+  circulo3.addEventListener("mouseout", seis);
+    function cinco() {
+        circulo3.style.height = "44px";
+        circulo3.style.width = "44px";
+    }
+    function seis() {
+        circulo3.style.height = "15px";
+        circulo3.style.width = "15px";
+  };
+  
+  circulo4.addEventListener("mouseover", siete);
+  circulo4.addEventListener("mouseout", ocho);
+    function siete() {
+        circulo4.style.height = "44px";
+        circulo4.style.width = "44px";
+    }
+    function ocho() {
+        circulo4.style.height = "15px";
+        circulo4.style.width = "15px";
+  };
+
+  circulo5.addEventListener("mouseover", nueve);
+  circulo5.addEventListener("mouseout", diez);
+    function nueve() {
+        circulo5.style.height = "44px";
+        circulo5.style.width = "44px";
+    }
+    function diez() {
+        circulo5.style.height = "15px";
+        circulo5.style.width = "15px";
+  };
+
+  circulo6.addEventListener("mouseover", once);
+  circulo6.addEventListener("mouseout", doce);
+    function once() {
+        circulo6.style.height = "44px";
+        circulo6.style.width = "44px";
+    }
+    function doce() {
+        circulo6.style.height = "15px";
+        circulo6.style.width = "15px";
+  };
+
+  circulo7.addEventListener("mouseover", trece);
+  circulo7.addEventListener("mouseout", catorce);
+    function trece() {
+        circulo7.style.height = "44px";
+        circulo7.style.width = "44px";
+    }
+    function catorce() {
+        circulo7.style.height = "15px";
+        circulo7.style.width = "15px";
+  };
+
+  circulo8.addEventListener("mouseover", quince);
+  circulo8.addEventListener("mouseout", diesiseis);
+    function quince() {
+        circulo8.style.height = "44px";
+        circulo8.style.width = "44px";
+    }
+    function diesiseis() {
+        circulo8.style.height = "15px";
+        circulo8.style.width = "15px";
+  };
 
 });
+
+
+
+
+  window.addEventListener("scroll", function(){
+      if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+              mapa.style.display = "block";
+          } else {
+            mapa.style.display ="none";
+          };
+
+  });
+
+
