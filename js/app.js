@@ -25,12 +25,7 @@ window.addEventListener("load", function(){
     var tocado6 = false;
     var tocado7 = false;
     var tocado8 = false;
-<<<<<<< HEAD
-    var fondo = document.getElementById("sectiontop");
-=======
-    var leer = document.getElementById("leerMas");
->>>>>>> refs/remotes/origin/master
-
+    
     dist1.addEventListener("mouseover", function(){
         if (!tocado1) {
           circulo1.style.display="block"; 
@@ -78,44 +73,18 @@ window.addEventListener("load", function(){
         circulo8.style.display="block"; 
             tocado8 = true;
       }
-<<<<<<< HEAD
-    }); 
-
-=======
     });
-   /* circulo1.addEventListener("mouseover", mouseOver);
-    circulo1.addEventListener("mouseout", mouseOut);
->>>>>>> refs/remotes/origin/master
 
 
-
-    /*fondo.addEventListener("mousemove", function(event){
-        myFunction(event);
     });
-        function myFunction(e) {
-        var x = -(e.clientX - fondo.offsetTop / 5);
-        var y = -(e.clientY - fondo.offsetTop / 5);
-        fondo.style.backgroundPosition = x + 'px ' + y + 'px';
-        }*/
+     window.addEventListener("scroll", function(){
+        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+            mapa.style.display = "block";
+        }
 
 
-    /*ten.addEventListener("mousemove", function(event){
-        myFunction(event);
-    });
-     fondo.body.style.backgroundPosition = x + 'px ' + y + 'px';
+    
 
-        function myFunction(e) {
-            var x = -(e.clientX - ten.offsetTop / 10);
-            var y = -(e.clientY - ten.offsetLeft / 10); 
-            ten.style.backgroundPosition = x + 'px ' + y + 'px';
-        }*/
-
-
-});
- window.addEventListener("scroll", function(){
-    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-        mapa.style.display = "block";
-    }
 });
 
 

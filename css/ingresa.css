@@ -1,17 +1,47 @@
+* {
+  margin: auto;
+  padding: 0;
+  border: 0;
+  font-family: 'Raleway', sans-serif;
+}
+.reserva{
+	font-size: 2rem;
+	margin-bottom: 20px;
+}
+.in{
+	margin-top: 20px;
+}
 .ingresAhora{
 	background-image: url(../image/fondo/OBL4I10.jpg);
   	background-repeat: no-repeat;
   	background-size: cover;
-  	height: 400px;
+  	height: 360px;
 	width: auto;
-	padding: 120px 150px;
+	padding: 80px 320px;
 }
 .formulario{
-	width: 80%;
-	padding: 20px;
+	padding: 24px;
 	background-color: rgba(255,255,255,0.6);
 }
 form{
-	border: 3px solid black;
-	padding: 2% 4%;
+	border: 4px solid black;
+	padding: 4% 6%;
+}
+/*INPUT*/
+.inp{
+	border: 1px solid #ccc;
+	border-radius: 4px;
+    padding: 10px 60px 10px 10px;
+    background-color: #fff;
+    margin: 4px 0px;
+}
+.but{
+	background-color: #ba0000;
+	color: #fff;
+	border-radius: 2px;
+	padding: 12px 20px;
+	margin-top: 20px;
+}
+.but:hover{
+	background-color: #be0000;
 }

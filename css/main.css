@@ -4,13 +4,12 @@
   border: 0;
   font-family: 'Raleway', sans-serif;
 }
+
 /*VISTA2*/
 .vista2{
 	padding: 44px 0px;
 }
-.distritos{
-	margin-top: 60px;
-}
+
 /*SECTION TOP*/
 .sectiontop{
 	background-image: url(../image/fondo/OBFCUE0.jpg);
@@ -48,18 +47,19 @@
 	text-decoration: none;
 }
 .ingresa:hover{
-	color: black;
+	color: white;
 }
-
 
 /*MAPA LIMA*/
 .mapaLima{
-	background-color: #f8ca00;
+	background-color: #2EC4B6;
+	/*background-color: #f8ca00;*/
 	text-align: center;
 }
 .mapa{
+	margin-top: 40px;
 	display: none;
-	width: 55%;
+	width: 45%;
 }
 .limaMetro{
 	color: white;
@@ -127,26 +127,26 @@
 .punto2{
 	background-color: #D81159;
 	position: relative;
-	bottom: 300px;
+	bottom: 450px;
 	right: 30px;
 }
 .punto3{
 	background-color: #75D701;
 	position: relative;
-	bottom: 420px;
-	right: 32px;
+	bottom: 620px;
+	right: 84px;
 }
 .punto4{
 	background-color: #f100e5;
 	position: relative;
-	bottom: 410px;
-	right: 24px;
+	bottom: 280px;
+	left: 80px;
 }
 .punto5{
 	background-color: #00b9f1;
 	position: relative;
-	bottom: 310px;
-	right: 12px;
+	bottom: 340px;
+	left: 48px;
 }
 .punto6{
 	background-color: #f9320c;
@@ -163,8 +163,8 @@
 .punto8{
 	background-color:#0080ff;
 	position: relative;
-	bottom: 520px;
-	right: 12px;
+	bottom: 290px;
+	left: 80px;
 }
 .distritos{
 	margin-top: 60px;
