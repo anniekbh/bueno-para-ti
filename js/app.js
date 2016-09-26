@@ -75,12 +75,10 @@ window.addEventListener("load", function(){
       }
     });
 });
-     window.addEventListener("scroll", function(){
-        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+window.addEventListener("scroll", function(){
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
             mapa.style.display = "block";
+        } else{
+            mapa.style.display = "none";
         }
-
-
-    
-
 });
