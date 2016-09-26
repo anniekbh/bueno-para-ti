@@ -73,7 +73,6 @@ window.addEventListener("load", function(){
         circulo8.style.display="block"; 
             tocado8 = true;
       }
-<<<<<<< HEAD
     }); 
 
 
@@ -167,23 +166,6 @@ window.addEventListener("load", function(){
   };
 
 });
-
-
-
-
-  window.addEventListener("scroll", function(){
-      if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-              mapa.style.display = "block";
-          } else {
-            mapa.style.display ="none";
-          };
-
-  });
-
-
-=======
-    });
-});
 window.addEventListener("scroll", function(){
     if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
             mapa.style.display = "block";
@@ -191,4 +173,3 @@ window.addEventListener("scroll", function(){
             mapa.style.display = "none";
         }
 });
->>>>>>> refs/remotes/origin/master
